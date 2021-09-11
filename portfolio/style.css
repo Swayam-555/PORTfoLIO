@@ -1,0 +1,128 @@
+ 
+        H1 {
+            color: rgb(233, 12, 12);
+            font-style: italic;
+            margin-left: 20px
+        }
+        h3{
+            color:darkslateblue;
+            font-style:oblique;
+        }
+
+        /* * {
+            border: solid;
+        } */
+    .header{
+
+        background-color: #ffff00;
+        display : flex;
+        justify-content : space-between;
+    }
+
+    .footer{
+        display:flex;
+        justify-content : flex-end;
+    }
+
+    /* .header *{
+        border:solid
+    } */
+
+    a:link{
+        color:rgb(67, 20, 238);
+        text-decoration: underline;
+    }
+    a:visited{
+        color:rgb(20, 238, 118);
+        text-decoration: underline;
+    }
+    a:hover{
+        color:rgb(238, 11, 219);
+        text-decoration: underline;
+    }
+
+    .menu{
+        margin-right:20px
+
+    }
+
+    .menu a{
+        margin-left:12px
+    }
+
+
+
+
+    .apps{
+         position:relative; 
+
+    }
+
+    .apps p{
+        position:absolute;
+        top:50%;
+        color:rgb(8, 8, 6);
+        left:50%;
+        transform:translate(-50%,-50%);
+        opacity:0;
+        
+    }
+
+    .apps:hover p{
+        opacity:1;
+    }
+    .apps:hover img{
+        opacity:0.25;
+    }
+
+    
+
+
+
+    .myApps{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content : space-between;
+    }
+    
+    body{
+        background-color: #00ffff;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
